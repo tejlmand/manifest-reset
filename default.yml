@@ -17,8 +17,8 @@ manifest:
 
   projects:
     - name: zephyr
-      sha: 7734627215d094754a4f097b255f84ffe4391da3
+      sha: bfad2a0cbfee37708e6641f4f740df292d4fd2b7
       revision: master
     - name: mcuboot
       remote: mcu-upstream
-      revision: 4d2052519505982c99679268c9f4390c195ccb10
+      revision: 9b7a25833b364d40eda86305f39c6969b306db79
