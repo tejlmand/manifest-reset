@@ -1,0 +1,25 @@
+# The default West manifest file to be used for Zephyr.
+west:
+  url: https://github.com/tejlmand/west
+  revision: feature_west_reset
+
+
+manifest:
+  defaults:
+    remote: upstream
+    revision: master
+
+  remotes:
+    - name: upstream
+      url-base: https://github.com/zephyrproject-rtos
+    - name: mcu-upstream
+      url-base: https://github.com/JuulLabs-OSS
+
+  projects:
+    - name: zephyr
+      sha: d8285e4adff8589fc7def1965d7347a6e5cdc7a7
+      revision: master
+    - name: mcuboot
+      remote: mcu-upstream
+      revision: e3937255d770aec18b2b3c6ada456175013595d2
+
